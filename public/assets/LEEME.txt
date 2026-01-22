@@ -1,0 +1,12 @@
+# Guía de Imágenes Zaphir
+
+Para actualizar las imágenes del sitio, reemplaza los archivos en esta carpeta asegurándote de usar **exactamente el mismo nombre**.
+
+## Archivos a reemplazar:
+
+1. **hero-main.png** -> Imagen principal de la portada (debe ser muy ancha y de alta calidad).
+2. **service-3d.png** -> Imagen para la sección de Modelado 3D.
+3. **service-gems.png** -> Imagen para la sección de Piedras Preciosas.
+4. **service-watch.png** -> Imagen para la sección de Relojería.
+
+Puedes usar formato `.png`, `.jpg` o `.webp`. Si cambias la extensión, avísame para actualizar el código.
