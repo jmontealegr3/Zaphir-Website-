@@ -5,24 +5,29 @@ import { useScrollAnimation } from '@/hooks/useScrollAnimation';
 
 const services = [
     {
-        title: "Venta de Joyas",
-        description: "Piezas exclusivas en Oro de 18k y Plata Ley 925.",
-        image: "/assets/hero-main.png"
-    },
-    {
-        title: "Modelado 3D",
-        description: "Diseño y renderizado de joyas personalizadas a tu medida.",
-        image: "/assets/service-3d.png"
+        title: "Relojería",
+        description: "Contamos con los profesionales más capacitados del país para reparar o darle mantenimiento a tu reloj, manejamos todo tipo de marca desde media alta hasta plus luxury. Baterías, pulsos, cristales, coronas, tijas, hebillas, pasadores, etc. Todo para tu reloj.",
+        image: "/assets/logo-box.jpg"
     },
     {
         title: "Piedras Preciosas",
-        description: "Diamantes, Esmeraldas y gemas certificadas de alta pureza.",
-        image: "/assets/service-gems.png"
+        description: "Tenemos al alcance, esmeraldas, diamantes, moissanitas, rubíes, zafiros, etc. Dinos lo que necesitas, estaremos para ti.",
+        image: "/assets/emerald-ring.jpg"
     },
     {
-        title: "Relojería",
-        description: "Mantenimiento y venta de relojes de marcas prestigiosas.",
-        image: "/assets/service-watch.png"
+        title: "Modelado 3D",
+        description: "Personalizamos cualquier tipo de pieza que desees desde cero, diseñamos a tu gusto y medida en 3D para que los detalles sean perfectos. Recuerda: >> tu solo imagina, nosotros hacemos el resto <<",
+        image: "/assets/pendant-s.jpg"
+    },
+    {
+        title: "Reparación y Limpieza",
+        description: "Trae tus piezas que se encuentren rotas, sucias o en mal estado, nosotros le daremos vida nuevamente.",
+        image: "/assets/halo-helmet.jpg"
+    },
+    {
+        title: "Venta de Joyas",
+        description: "Trabajamos con los más altos estándares de calidad, te ofrecemos joyas en plata 925 en adelante, oro de 18k en adelante, paladio, platino y todos sus derivados.",
+        image: "/assets/emerald-pendant.png"
     }
 ];
 
@@ -33,6 +38,13 @@ const Services = () => {
         <section id="services" className={styles.services}>
             <div className={`container ${styles.container}`}>
                 <div ref={headerRef} className={headerVisible ? 'animate-visible fade-in-up' : 'animate-hidden'}>
+                    <div style={{ textAlign: 'center', marginBottom: '3rem', maxWidth: '800px', margin: '0 auto 4rem auto' }}>
+                        <p style={{ fontSize: '1.2rem', lineHeight: '1.6', color: 'var(--text-color)' }}>
+                            En <strong>Z A P H I R</strong> no solo hacemos piezas personalizadas en joyería, también contamos historias... déjanos ser parte de la tuya.
+                            <br/><br/>
+                            <em>En <strong>Z A P H I R</strong> tu solo imagina, nosotros hacemos el resto.</em>
+                        </p>
+                    </div>
                     <h2 className={styles.heading}>Nuestros Servicios</h2>
                 </div>
                 <div className={styles.grid}>

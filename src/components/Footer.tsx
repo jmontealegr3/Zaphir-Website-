@@ -25,7 +25,7 @@ const Footer = () => {
                     <a href="https://tiktok.com" target="_blank" rel="noopener noreferrer" className={styles.socialLink}>
                         TikTok
                     </a>
-                    <a href="https://facebook.com" target="_blank" rel="noopener noreferrer" className={styles.socialLink}>
+                    <a href="https://web.facebook.com/profile.php?id=61588321125587" target="_blank" rel="noopener noreferrer" className={styles.socialLink}>
                         Facebook
                     </a>
                 </div>
