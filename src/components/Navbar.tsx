@@ -6,7 +6,7 @@ const Navbar = () => {
         <nav className={styles.navbar}>
             <div className={`container ${styles.container}`}>
                 <Link href="/" className={styles.logo}>
-                    <img src="/assets/logo.jpg" alt="ZAPHIR" style={{ maxHeight: '50px', width: 'auto' }} />
+                    <img src="/assets/logo-nuevo.jpg" alt="ZAPHIR" style={{ maxHeight: '50px', width: 'auto' }} />
                 </Link>
                 <div className={styles.links}>
                     <Link href="#services">Servicios</Link>
